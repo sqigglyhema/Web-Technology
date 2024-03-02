@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Functions</title>
+</head>
+<body>
+    <h1>JavaScript Functions</h1>
+    <script>
+        // Exponential value
+        function exponentialValue(base, exponent) {
+            return Math.pow(base, exponent);
+        }
+
+        // Limit the number of digits after the decimal value
+        function limitDecimalDigits(number, digits) {
+            return number.toFixed(digits);
+        }
+
+        // Convert a number to string
+        function convertToString(number) {
+            return number.toString();
+        }
+
+        // Return negative infinity using the number object in the HTML document
+        function returnNegativeInfinity() {
+            return Number.NEGATIVE_INFINITY;
+        }
+
+        // Example usage
+        var base = 2;
+        var exponent = 3;
+        var number = 3.14159;
+        var digits = 2;
+
+        document.write("Exponential value of " + base + " raised to the power of " + exponent + " is: " + exponentialValue(base, exponent) + "<br>");
+        document.write("Number " + number + " with " + digits + " digits after the decimal is: " + limitDecimalDigits(number, digits) + "<br>");
+        document.write("Number " + number + " converted to string is: " + convertToString(number) + "<br>");
+        document.write("Negative infinity is: " + returnNegativeInfinity() + "<br>");
+    </script>
+</body>
+</html>
