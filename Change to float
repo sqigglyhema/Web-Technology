@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Elements</title>
+    <style>
+        /* External CSS file */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .element1 {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .element2 {
+            width: 200px;
+            height: 200px;
+            background-color: #e74c3c;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="element1">Element 1</div>
+    <div class="element2">Element 2</div>
+</div>
+
+</body>
+</html>
