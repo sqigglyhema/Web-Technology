@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background GIF with CSS</title>
+    <style>
+        /* External CSS file */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://media.giphy.com/media/3ov9jQX2Ow4bM5xxuM/giphy.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh; /* 100% of the viewport height */
+            width: 100vw; /* 100% of the viewport width */
+            opacity: 0.8; /* 80% transparency */
+            transition: opacity 0.5s ease-in-out; /* 0.5 second transition */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 50%;
+            margin: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple example of a webpage with a background GIF.</p>
+</div>
+
+</body>
+</html>
