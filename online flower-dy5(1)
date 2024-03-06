@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Flower and Gift Shop</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <!-- Display featured categories here -->
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers">
+        <!-- Display special offers here -->
+    </section>
+
+    <!-- Product Carousel -->
+    <section class="product-carousel">
+        <!-- Display product carousel here -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>
